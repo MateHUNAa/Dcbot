@@ -1,15 +1,15 @@
-/*const commando = require('discord.js-commando');*/
+const commando = require('discord.js-commando');
 const szinek = require("./colours.json")
 const emo = require("./emoji.json")
 const discord = require('discord.js');
 const moment = require('moment')
-var bot = new commando.Client (/*{
+var bot = new commando.Client ({
     owner: '393380978766381061',
     disabledEvryone: true,
     commandPrefix: '!',
     unknownCommandResponse: false,
     invite: 'https://discord.gg/wUXP5UX',
-}*/);
+});
 
 
 /*
