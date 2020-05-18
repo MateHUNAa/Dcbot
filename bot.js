@@ -1,4 +1,4 @@
-const commando = require('discord.js-commando');
+/*const commando = require('discord.js-commando');*/
 const szinek = require("./colours.json")
 const emo = require("./emoji.json")
 const discord = require('discord.js');
