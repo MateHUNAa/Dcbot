@@ -109,14 +109,14 @@ bot.on("message", message => {
 
 
 
-
+/*
 //registry
 bot.registry.registerGroup("parancsok", "Parancsok");
 bot.registry.registerDefaults();
 //bot.registry.registerGroups();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 //registry vége 
-
+*/
 bot.on("message", message => {
   if (message.content.toLowerCase() === prefix + "serverinfo") {
     const EmbedAmyad = new discord.RichEmbed()
